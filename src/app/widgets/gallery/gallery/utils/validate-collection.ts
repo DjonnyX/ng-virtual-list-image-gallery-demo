@@ -1,4 +1,4 @@
-import { IVirtualListCollection, IVirtualListItem } from "@shared/ng-virtual-list";
+import { IVirtualListCollection, IVirtualListItem } from 'ng-virtual-list';
 import { IGalleryImageData } from "@shared/models/pages";
 
 /**

@@ -1,5 +1,5 @@
 import { IGalleryImageData } from "@shared/models/pages";
-import { IVirtualListItemConfigMap } from "@shared/ng-virtual-list";
+import { IVirtualListItemConfigMap } from 'ng-virtual-list';
 import { IProxyCollectionItem } from "./proxy-collection";
 import { GalleryTypes } from "@shared/enums";
 

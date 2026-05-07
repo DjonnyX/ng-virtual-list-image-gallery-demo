@@ -1,4 +1,4 @@
-import { IVirtualListItem } from "@shared/ng-virtual-list";
+import { IVirtualListItem } from 'ng-virtual-list';
 import { GalleryTypes } from "@shared/enums";
 import { ILocalization } from "@shared/localization";
 import { IGalleryImage } from "@widgets/gallery";

@@ -1,6 +1,6 @@
-# NgVirtualList Book Reader Demo
+# NgVirtualList Image Gallery Demo
 
-✨ NgVirtualList Book Reader Demo (ng-virtual-list-image-gallery) is an Angular-based showcase application designed to demonstrate high-performance rendering of long message history using virtual scrolling techniques.
+✨ NgVirtualList Image Gallery Demo (ng-virtual-list-image-gallery) is an Angular-based showcase application designed to demonstrate high-performance rendering of long message history using virtual scrolling techniques.
 
 The main task was to implement a virtual list with dynamically height elements using virtual scrolling.
 

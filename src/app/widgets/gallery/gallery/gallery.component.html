@@ -10,7 +10,7 @@
     <ng-virtual-list #list class="list" [ngClass]="listClass()" [items]="items" [itemRenderer]="itemRenderer" [itemConfigMap]="collectionConfigMap()"
         [snapScrollToEnd]="false" [dynamicSize]="true" [itemSize]="itemSize" [divides]="_divides()" [bufferSize]="2" [maxBufferSize]="2"
         collectionMode="lazy" [stickyEnabled]="false" [defaultItemValue]="defaultItemValue()" [snapToItem]="true"
-        snapToItemAlign="start" snappingDistance="10%" [snapToEndTransitionInstantOffset]="1" [motionBlurEnabled]="true"
+        snapToItemAlign="start" snappingDistance="10%" [snapToEndTransitionInstantOffset]="1"
         [scrollbarThumbRenderer]="customScrollBarThumb" [scrollbarThumbParams]="scrollbarTheme()"
         [selectByClick]="false" [scrollingSettings]="scrollingSettings" [loading]="isLazyLoading()"
         [animationParams]="animationParams" (onScrollReachEnd)="onScrollReachEndHandler()"

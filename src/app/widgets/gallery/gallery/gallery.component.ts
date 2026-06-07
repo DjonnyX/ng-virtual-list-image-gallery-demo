@@ -6,9 +6,8 @@ import {
 } from 'rxjs';
 import { PageLoadingIndicatorComponent } from '@entities/gallery';
 import { PageBoxComponent } from '@features/page';
-import { NgVirtualListComponent } from '@shared/components';
 import {
-  NgVirtualListModule, IAnimationParams, Id, IDisplayObjectConfig, IScrollEvent, IVirtualListItem, NgVirtualListPublicService, IScrollingSettings,
+  NgVirtualListModule, NgVirtualListComponent, IAnimationParams, Id, IDisplayObjectConfig, IScrollEvent, IVirtualListItem, NgVirtualListPublicService, IScrollingSettings,
   IVirtualListItemConfigMap,
 } from 'ng-virtual-list';
 import { IGalleryImageData } from "@shared/models/pages";

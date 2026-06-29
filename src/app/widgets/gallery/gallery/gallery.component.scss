@@ -32,7 +32,7 @@
 
         &::part(item) {
             background-color: unset;
-            padding: 2px;
+            padding: 1px;
         }
 
         &::part(snapped-item) {
@@ -108,6 +108,7 @@
         height: 100%;
         padding: 0;
         box-sizing: border-box;
+        overflow: hidden;
 
         &__shape {
             height: 100%;

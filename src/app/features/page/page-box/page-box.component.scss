@@ -9,6 +9,7 @@
 }
 
 .container {
+    cursor: pointer;
     height: 80px;
     width: 80px;
     background-color: transparent;
@@ -16,6 +17,10 @@
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
+
+    &.grabbing {
+        cursor: grabbing;
+    }
 
     .content {
         position: relative;

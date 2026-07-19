@@ -6,7 +6,7 @@
 @if (d && c) {
     <div #wrapper class="wrapper" [style.width.px]="w" [style.height.px]="h">
         <div #container class="page-container" [style.width.px]="w" [style.height.px]="h" [ngClass]="class">
-            <img class="image" [src]="d.data.img" [style.width.px]="w" [style.height.px]="h" />
+            <img class="image" fetchPriority="low" decoding="async" [src]="d.data.img" [style.width.px]="w" [style.height.px]="h" />
         </div>
     </div>
 }
